@@ -163,7 +163,7 @@ class _MusicPageState extends State<MusicPage> {
       backgroundColor: const Color(0xFF020617),
       appBar: AppBar(
         backgroundColor: const Color(0xFF111827),
-        title: Text("Music for $moodLabel"),
+        title: Text("Music for mood $moodLabel"),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
